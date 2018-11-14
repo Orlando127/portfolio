@@ -9,6 +9,7 @@ overflow-x: hidden;
   }
   /* STRUCTURE */
 
+
   img {
       max-width:80%;
     padding-top: 5%}
@@ -26,19 +27,20 @@ overflow-x: hidden;
   filter: alpha(opacity=50); /* For IE8 and earlier */ /* For IE8 and earlier */
     }
   }
-
+  /* Mobile Styles */
   @import url(https://fonts.googleapis.com/css?family=Rokkitt);
 
 body {
   background-color: white;
   font-family: 'Rokkitt', sans-serif;
 }
+
+/* STRUCTURE */
 #container{
   width: auto;
   margin-left: 5vw;
   margin-right: 5vw;
 }
-/* STRUCTURE */
 
 #pagewrap {
 	padding: 5px;
@@ -144,10 +146,6 @@ MEDIA QUERIES
 }
 
 
-
-
-
-
 #content {
 }
 #sidebar {
@@ -156,16 +154,7 @@ header, #content, #middle, #sidebar {
 	margin-bottom: 5px;
 }
 
-
-
-#aboutme{
-  font-family: 'Rokkitt', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-
-}
-
-#pagewrap, header, #content, #middle, #sidebar, #pagewrap,footer {
+#pagewrap, header, #content, #middle, #sidebar, footer {
 }
 h1 {
  margin-left: auto;
@@ -194,9 +183,13 @@ h1 {
               padding-bottom: 5px;
           }
 
-
-
-/* Mobile Styles */
+      h4{
+          margin-left: auto;
+          margin-right: auto;
+          font-family: 'Rokkitt', sans-serif;
+          font-size: 20px;
+          font-weight: 300;
+      }
 
 
       a:link {
